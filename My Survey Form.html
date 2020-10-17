@@ -1,0 +1,44 @@
+<!-
+I am working on the dropdown list for the 'current role' section.
+-->
+
+<html>
+<head>
+	<title>My Survey Form</title>
+	<style>
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 id="title">My Survey Form</h1>
+			<p id="description">
+				Thank you for taking the time to use My Survey Form.
+			</p>
+		</header>
+		<form id="survey-form">
+			<div class="form-group">
+				<label id="name-label" for="name">
+					Name
+				</label>
+				<input id="name" class="form-control" type="text" name="name" placeholder="Enter your name" required="">
+			</div>
+			<div class="form-group">
+				<label id="email-label" for="email">
+					Email
+				</label>
+				<input id="email" class="form-control" type="email" name="email" placeholder="Enter your Email" required="">
+			</div>
+			<div class="form-group">
+				<label id="number-label" for="number">
+					Age
+					<span class="clue">(optional)</span>
+				</label>
+				<input id="number" class="form-control" type="number" name="age" min="10" max="99" placeholder="Age">
+			</div>
+			</div class="form-group">
+				<p>Which option best describes your current role?</p>
+				<select id="dropdown" class="form-control" name="role" required="">
+		</form>
+</body>
+</html>
